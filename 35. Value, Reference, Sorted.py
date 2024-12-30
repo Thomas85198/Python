@@ -22,3 +22,5 @@ x = "How are you doing today?"
 y = sorted(x)
 print(x)
 print(y)
+# How are you doing today?
+# [' ', ' ', ' ', ' ', '?', 'H', 'a', 'a', 'd', 'd', 'e', 'g', 'i', 'n', 'o', 'o', 'o', 'o', 'r', 't', 'u', 'w', 'y', 'y']
