@@ -11,4 +11,4 @@ print(exponent(a=10, b=2))  # 100
 print(exponent(b=2, a=10))  # 100
 
 myList = [4, 6, 3, 2, 1]
-print(sorted(myList))  # [1, 2, 3, 4, 6]
+print(sorted(myList, reverse=False))  # [1, 2, 3, 4, 6]
