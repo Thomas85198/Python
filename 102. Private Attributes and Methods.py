@@ -15,4 +15,5 @@ class Robot:
 
 my_robot = Robot("Wilson")
 # print(my_robot.__age)  # AttributeError: 'Robot' object has no attribute '__age'
-my_robot.greet()  # Hi, I am 25 years old.
+my_robot.greet()  # Hi, I am 25 years old. Hello from private method.
+

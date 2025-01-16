@@ -51,3 +51,5 @@ a = A()
 a.do_stuff()
 print(A.mro())
 print(A.__mro__)
+# [<class '__main__.A'>, <class '__main__.B'>, <class '__main__.E'>, <class '__main__.F'>, <class '__main__.C'>, <class '__main__.D'>, <class '__main__.G'>, <class 'object'>]
+# (<class '__main__.A'>, <class '__main__.B'>, <class '__main__.E'>, <class '__main__.F'>, <class '__main__.C'>, <class '__main__.D'>, <class '__main__.G'>, <class 'object'>)
