@@ -11,3 +11,5 @@ import pickle
 with open("pickle_file", "rb") as p_file:
     print(pickle.load(p_file))
     print(pickle.load(p_file))
+# Output: 10
+#         [1, 2, 3, 4]
