@@ -31,3 +31,6 @@ first_p_tag = soup.find("p")
 print(first_p_tag.get("class"))
 print(first_p_tag.get_text())
 print(first_p_tag["class"])
+result = soup.select("p.story")
+for i in result:
+    print(i.get_text())
